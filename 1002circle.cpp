@@ -8,7 +8,7 @@ int main(){
 
 	cin >> r;
 	a = r * r * 3.14159;
-	cout << "A=" << setprecision(4)<< a <<endl;
+	cout << "A=" << fixed << setprecision(4)<< a <<endl;
 
 	return 0;
 
